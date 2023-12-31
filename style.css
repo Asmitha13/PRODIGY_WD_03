@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-bottom:2rem;
+    color:aliceblue;
+    font-size: 3rem;
+}
+h3{
+    height: 2.5rem;
+    margin-top:2rem;
+    font-size:2.5rem;
+}
+main{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    opacity:0.87;
+}
+.container{
+    background-color: rgb(187, 238, 225);
+    border-radius: 40px;
+    padding:20px;
+    
+}
+table{
+    height:20rem;
+    width:20rem;
+    text-align: center;
+    border-collapse: collapse;
+    border-style:hidden ;
+}
+table td {
+        border: 5px solid rgb(18, 56, 14);
+        height:4rem;
+        width:4rem;
+}  
+.x{
+    height:3.5rem; 
+}
+#btn{
+    margin:20px;
+    padding:5px 10px;
+    font-size:1.5em; 
+    border-radius: 10px;
+    border: none;
+    background-image:linear-gradient(rgb(190, 180, 180),white,rgb(190, 180, 180));
+    
+}
+
+
+
